@@ -8,7 +8,8 @@
 //  - IC Connect (USB or BT),
 //  - Serial Device (if USB) or BT Address (if BT with IC-705)
 const char *choiceConfig[] = {
-    "7300", "0x94", "USB", "/dev/ttyUSB0",     
+    "7300", "0x94", "USB", "/dev/ttyUSB0",
+//     "7300", "0x94", "USB", "COM4",     
      "705", "0xA4", "USB", "/dev/ttyACM0",    
      "705", "0xA4", "BT",  "30:31:7D:33:B2:58" 
 };
@@ -19,7 +20,7 @@ const char *choiceConfig[] = {
 
 // Proxy Config
 #define BAUD_RATE 115200                        // Proxy Serial Device Baud Rate
-#define PROXY_URL "http://192.168.1.32"         // Proxy HTTP URL
+#define PROXY_URL "http://192.168.1.12"         // Proxy HTTP URL
 #define PROXY_PORT 1234                         // Proxy HTTP Port
 
 // Transverter
